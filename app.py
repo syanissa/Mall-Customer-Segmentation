@@ -1,7 +1,6 @@
 import streamlit as st
 import joblib
 import pandas as pd
-import joblib
 
 lin_reg = joblib.load('linear_model.pickle')
 tree_reg = joblib.load('tree_model.pickle')
