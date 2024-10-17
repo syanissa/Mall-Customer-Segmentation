@@ -1,8 +1,8 @@
 import streamlit as st
 import joblib
 import pandas as pd
+import joblib
 
-# Load trained models
 lin_reg = joblib.load('linear_model.pickle')
 tree_reg = joblib.load('tree_model.pickle')
 xgb_reg = joblib.load('xgb_model.pickle')
