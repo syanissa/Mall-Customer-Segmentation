@@ -1,7 +1,7 @@
 joblib
 numpy
 pandas==2.2.2
-streamlit==1.39.0
+streamlit
 scikit-learn==1.2.2
 setuptools==65.5.0
 wheel==0.41.2
